@@ -1,8 +1,5 @@
-# React + Vite
+# ShareAndCare 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description of the application:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"Give it away in good hands" is an online service that bridges the gap between people who want to donate items and those who need them. Thanks to this platform, any used item can find a new owner and continue to serve instead of ending up in a landfill. Users can easily browse the available items or list their own, describing their condition and history. The site promotes the idea of sustainability and consumerism, encouraging sharing instead of wasting. In this way, 'Give to Good Hands' not only helps people but also the environment by giving objects a second life and reducing waste.
