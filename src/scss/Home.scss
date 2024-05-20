@@ -1,0 +1,13 @@
+@use './settings/colors' as colors;
+@use './settings/fonts' as fonts;
+
+body {
+    background-color: colors.$backGroundColorSections;
+}
+
+.container {
+    margin: 125px auto;
+    height: 100%;
+    width: 1900px;
+    background-color: colors.$ColorWhite;
+  }
