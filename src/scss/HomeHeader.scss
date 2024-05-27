@@ -1,2 +1,33 @@
-@use './settings/colors' as colors;
-@use './settings/fonts' as fonts;
+@use "./settings/colors" as colors;
+@use "./settings/fonts" as fonts;
+
+.HomeHeader__opening {
+	position: relative;
+	height: 900px;
+	.HomeHeader__img {
+		width: 885px;
+		height: 900px;
+		background-image: url("../assets/Home-Hero-Image.jpg");
+        background-position:center;
+        background-size: cover;
+		position: absolute;
+		display: inline-block;    
+	}
+
+	.HomeHeader__section__reight {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: auto;
+		height: auto;
+		position: absolute;
+		top: 310px;
+		left: 900px;
+
+		.HomeHeader__title {
+			font-size: 2.375rem;
+			font-weight: normal;
+		}
+	}
+}

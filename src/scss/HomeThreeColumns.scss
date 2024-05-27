@@ -1,2 +1,27 @@
 @use './settings/colors' as colors;
 @use './settings/fonts' as fonts;
+
+.HomeThreeColumns__section {
+    height: 385px;
+    background-image: url('../assets/3\ Columns\ Background.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .HomeThreeColumns__single {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .HomeThreeColumns__title {
+            font-size: 1.125rem;
+            text-transform: uppercase;
+            
+        }
+
+        .HomeThreeColumns__text {
+            margin-top: 2px;
+        }
+    }
+}

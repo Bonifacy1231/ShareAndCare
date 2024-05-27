@@ -1,0 +1,23 @@
+@use "./settings/colors" as colors;
+@use "./settings/fonts" as fonts;
+
+.nav__section {
+	.nav__container {
+		.nav__menu {
+			display: flex;
+			justify-content: flex-end;
+			.nav__item {
+                margin: 15px;
+				list-style: none;
+				font-size: 1.125rem;
+				color: colors.$textColor;
+				cursor: pointer;
+			}
+
+            .nav__item:hover {
+                border: 2px solid black;
+            }
+		}
+	}
+}
+

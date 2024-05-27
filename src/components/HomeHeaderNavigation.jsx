@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../scss/nav.scss";
+import "../scss/HomeHeaderNavigation.scss";
 import { Link } from "react-scroll";
 
 export default function HomeHeaderNavigation() {
@@ -11,11 +11,18 @@ export default function HomeHeaderNavigation() {
 					<Link>
 						<li className='nav__item'>Start</li>
 					</Link>
-
-					<li className='nav__item'>O co chodzi?</li>
-					<li className='nav__item'>o nas</li>
-					<li className='nav__item'>Fundacje i organizacje</li>
-					<li className='nav__item'>Kontakt</li>
+					<Link>
+						<li className='nav__item'>O co chodzi?</li>
+					</Link>
+					<Link>
+						<li className='nav__item'>o nas</li>
+					</Link>
+					<Link>
+						<li className='nav__item'>Fundacje i organizacje</li>
+					</Link>
+					<Link>
+						<li className='nav__item'>Kontakt</li>
+					</Link>
 				</ul>
 			</div>
 		</nav>
